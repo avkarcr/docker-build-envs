@@ -1,3 +1,6 @@
 import os
+import time
 secret = os.getenv('MY_SECRET')
-print(secret)
+while True:
+  print(secret)
+  time.sleep(5)
